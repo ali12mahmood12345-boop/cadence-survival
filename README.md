@@ -1,5 +1,12 @@
-\# CADENCE // SURVIVAL
+# CADENCE // SURVIVAL
 
+![CADENCE // SURVIVAL — Live World Shift Demo](assets/cadence-survival-demo.png)
+
+### Live World Shift Result
+
+**Pre-Shift Avg: +25.39 → Early Post-Shift: +17.11 → Recent Post-Shift: +41.16 → Post-Shift Change: +24.05**
+
+*Example live run: WORLD SHIFT triggered at Episode 6. The same Cadence brain continued running without an intentional brain reset.*
 
 
 > A live adaptive survival arena powered by a persistent Cadence brain.
@@ -18,15 +25,15 @@ The challenge for the brain is simple:
 
 
 
-\*\*Can the same agent continue operating when the rules it learned suddenly become wrong?\*\*
+**Can the same agent continue operating when the rules it learned suddenly become wrong?**
 
 
 
-\---
+---
 
 
 
-\## The Arena
+## The Arena
 
 
 
@@ -38,11 +45,11 @@ There are two targets:
 
 
 
-\- `● TARGET F` — initially ENERGY
+- `● TARGET F` — initially ENERGY
 
-\- `▲ TARGET X` — initially DANGER
+- `▲ TARGET X` — initially DANGER
 
-\- `◆ AGENT` — controlled by Cadence
+- `◆ AGENT` — controlled by Cadence
 
 
 
@@ -54,7 +61,7 @@ The dashboard exposes the process live:
 
 
 
-\*\*Perception Vector → Cadence Brain → Selected Action → Reward → Learning Signal\*\*
+**Perception Vector → Cadence Brain → Selected Action → Reward → Learning Signal**
 
 
 
@@ -62,23 +69,23 @@ The available actions are:
 
 
 
-\- UP
+- UP
 
-\- DOWN
+- DOWN
 
-\- LEFT
+- LEFT
 
-\- RIGHT
+- RIGHT
 
-\- WAIT
-
-
-
-\---
+- WAIT
 
 
 
-\## World Shift
+---
+
+
+
+## World Shift
 
 
 
@@ -86,7 +93,7 @@ The key feature of the project is the manual:
 
 
 
-\### ⚠ WORLD SHIFT
+### ⚠ WORLD SHIFT
 
 
 
@@ -118,7 +125,7 @@ After the shift:
 
 
 
-The important part is that the running Cadence brain is \*\*not reset when the world changes\*\*.
+The important part is that the running Cadence brain is **not reset when the world changes**.
 
 
 
@@ -130,11 +137,11 @@ This creates an observable online adaptation experiment rather than simply resta
 
 
 
-\---
+---
 
 
 
-\## Live Cadence Decision Pipeline
+## Live Cadence Decision Pipeline
 
 
 
@@ -146,27 +153,27 @@ It displays:
 
 
 
-\- normalized perception vector
+- normalized perception vector
 
-\- selected Cadence action
+- selected Cadence action
 
-\- immediate reward
+- immediate reward
 
-\- current event
+- current event
 
-\- energy
+- energy
 
-\- health
+- health
 
-\- episode
+- episode
 
-\- step
+- step
 
-\- cumulative episode reward
+- cumulative episode reward
 
-\- Cadence dopamine diagnostic
+- Cadence dopamine diagnostic
 
-\- Cadence TD-error diagnostic
+- Cadence TD-error diagnostic
 
 
 
@@ -174,11 +181,11 @@ The goal is to make the interaction between the environment and Cadence visible 
 
 
 
-\---
+---
 
 
 
-\## World-Shift Proof View
+## World-Shift Proof View
 
 
 
@@ -194,13 +201,13 @@ It reports:
 
 
 
-\- \*\*Pre-Shift Average\*\*
+- **Pre-Shift Average**
 
-\- \*\*Early Post-Shift Average\*\*
+- **Early Post-Shift Average**
 
-\- \*\*Recent Post-Shift Average\*\*
+- **Recent Post-Shift Average**
 
-\- \*\*Post-Shift Change\*\*
+- **Post-Shift Change**
 
 
 
@@ -212,11 +219,11 @@ This makes the before/after comparison easier to inspect without pretending that
 
 
 
-\---
+---
 
 
 
-\## Example Run
+## Example Run
 
 
 
@@ -254,11 +261,11 @@ It should not be interpreted as proof that retaining a continuous brain will alw
 
 
 
-\---
+---
 
 
 
-\## Why Cadence?
+## Why Cadence?
 
 
 
@@ -266,7 +273,7 @@ This project is designed around a property that is difficult to communicate with
 
 
 
-\*\*learning while the system is operating.\*\*
+**learning while the system is operating.**
 
 
 
@@ -282,11 +289,11 @@ Instead of replacing the agent with a newly trained model, CADENCE // SURVIVAL k
 
 
 
-\---
+---
 
 
 
-\## Project Structure
+## Project Structure
 
 
 
